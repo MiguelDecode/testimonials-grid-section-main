@@ -30,9 +30,11 @@ body {
 
 /* CARDS */
 
-article {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+@media screen and (max-width: 375px) {
+  article {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
 }
 
 /* Card-1 */
